@@ -1,0 +1,38 @@
+[project]
+name = "voice-bot"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.115.12",
+    "google-api-python-client>=2.172.0",
+    "google-auth-httplib2>=0.2.0",
+    "google-auth-oauthlib>=1.2.2",
+    "google-cloud>=0.34.0",
+    "google-cloud-core>=2.4.3",
+    "google-generativeai>=0.8.5",
+    "gradio>=5.34.2",
+    "gtts>=2.5.4",
+    "nest-asyncio>=1.6.0",
+    "oauthlib>=3.3.0",
+    "openai-agents>=0.0.17",
+    "openai-whisper>=20240930",
+    "openpyxl>=3.1.5",
+    "pyaudio>=0.2.14",
+    "pydub>=0.25.1",
+    "pypdf2>=3.0.1",
+    "python-docx>=1.2.0",
+    "python-dotenv>=1.1.0",
+    "python-multipart>=0.0.20",
+    "pyyaml>=6.0.2",
+    "pyzoom>=1.0.8",
+    "requests>=2.32.4",
+    "requests-oauthlib>=2.0.0",
+    "speechrecognition>=3.14.3",
+    "streamlit>=1.45.1",
+    "streamlit-authenticator==0.1.4",
+    "transformers>=4.52.4",
+    "twilio>=9.6.4",
+    "uvicorn>=0.34.3",
+]
